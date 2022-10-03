@@ -49,6 +49,24 @@ p {
   line-height: 1.5;
 }
 
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -67,6 +85,12 @@ p {
   padding: 15px 30px;
 }
 
+.headshot {
+  border-radius: 6px;
+  width: 298px;
+  height: 529px;
+}
+
 .project-description {
   padding: 120px 60px;
 }
@@ -83,6 +107,11 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
